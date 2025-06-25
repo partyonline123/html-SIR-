@@ -1,0 +1,134 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+.others {
+  text-align: center;
+  background-color: rgb(105, 105, 126);
+  padding: 0px;
+  color: white;
+  font-size: 1rem;
+  overflow: hidden;  /* 👈 This line is key */
+}
+
+header{
+    background-color: blue;
+    padding: 50px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1rem;
+}
+#nav{
+    color: azure;
+    font-size: larger;
+    padding: 10px;
+    background-color: rgb(2, 2, 180);
+    text-align: center;
+    text-decoration: none;
+}
+#nav a {
+  text-decoration: none;
+  color: azure;
+  font-size: larger;
+  margin-right: 15px;
+}
+
+ #Image {
+  /* your styles here */
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+ #para{
+  font-size: 50px;
+   font-family: "Roboto", sans-serif;
+}
+
+#h1{
+  padding: 10px;
+}
+
+#about{
+  text-align: center; 
+  font-size: 50rem;
+  padding: 0px;
+}
+
+#Image {
+  display: block;
+  margin: 0 auto; /* centers the image */
+  max-width: 90%;
+  background-color: transparent; /* change this if you want */
+}
+#contact {
+  background-color: rgb(67, 67, 67);
+  padding: 20px; /* add some space inside */
+  font-size: 1rem;
+  color: white; /* white text on dark background */
+  width: 100vw;  /* full width of viewport */
+  box-sizing: border-box;
+}
+
+#contact {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rounded-box {
+  width: 450px;
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 0.95rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.rounded-box {
+  width: 450px;
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 0.95rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.rounded-box {
+  width: 450px;
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 0.95rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.rounded-box {
+  width: 450px;
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 0.95rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+ #Events > #event{
+  margin-left:2rem ;
+}
+#image {
+  float: left;
+}

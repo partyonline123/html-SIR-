@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIR-Events</title>
+  <link rel="stylesheet" href="h1{.css">
+ 
+
+  <style>
+    .slideshow {
+      width: 100%;
+      max-width: 500px;
+      height: 300px;
+      position: relative;
+      margin: auto;
+      overflow: hidden;
+      border: 2px solid black;
+      margin-bottom: 30px;
+    }
+
+    .slideshow img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* Use "cover" if you prefer filling the box */
+      background-color: black;
+      opacity: 0;
+      animation: slideShow 15s infinite;
+    }
+
+    .slideshow img:nth-child(1) {
+      animation-delay: 0s;
+    }
+
+    .slideshow img:nth-child(2) {
+      animation-delay: 5s;
+    }
+
+    .slideshow img:nth-child(3) {
+      animation-delay: 10s;
+    }
+
+    @keyframes slideShow {
+      0% { opacity: 0; }
+      5% { opacity: 1; }
+      30% { opacity: 1; }
+      35% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    nav a {
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SIR Events</h1>
+  </header>
+   
+   <nav id="nav">
+    <a href="#Home">Home</a>
+    <a href="#About">About</a>
+    <a href="#Faculty">Faculty</a>
+    <a href="#Events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+ 
+  <section id="Home">
+    <h2 style="text-align: center; background-color: rgb(4, 4, 69);; color: aliceblue; padding: 10px;">Home</h2>
+    <div class="slideshow">
+      <img src="images (1).jpeg" alt="Image 1">
+      <img src="institute for Art and Cultutre (IAC) Lahore.jpg" alt="Image 2">
+      <img src="images (2).jpeg" alt="Image 3">
+    </div>
+  </section>
+<div class="others">
+  <section id="About">
+    <h2 style="background-color: rgb(4, 4, 69); padding: 40px;font-size: 3;">About</h2>
+    <div id="about-content">
+      <img id="Image" src="ACA2.jpg" alt="IAC" style="float: left;">
+    <p id="para">
+      <h3 style="font-family: 'Times New Roman', Times, serif;text-align: left;">
+        At the School of Informatics and Robotics, we are passionate about empowering the next generation 
+        of tech innovators through our Bachelor’s degree in Computer Science. Our curriculum is thoughtfully
+         designed to cover key areas such as algorithms, artificial intelligence, cybersecurity, data science
+          and more ensuring that students gain both theoretical knowledge and practical skills. We
+           believe in the power of hands-on learning. Our state-of-the-art laboratories and 
+           advanced robotics equipment provide students with the opportunity to engage in 
+           collaborative projects that connect technology to real-world challenges. Here, 
+           you’ll not only learn how to code but also how to think critically and creatively 
+           to solve complex problems. Our dedicated faculty—comprised of industry professionals 
+           and leading researchers—are committed to guiding you on your journey. Join us 
+           at the School of Informatics and Robotics, and let’s shape the future of technology together!
+      </h3>
+    </p>
+  </div>
+</section>
+</div>
+
+
+  
+
+
+
+
+  <section id="Faculty">
+
+    <h2 style="text-align: center; background-color: rgb(4, 4, 69); color: aliceblue; padding: 30px; margin-top: 2rem;">Faculty</h2>
+    <div style="margin-left: 2rem;">
+      <ul>
+      <div class="rounded-box">
+  <h2>Prof. Dr. Shazia Saqib (Dean & Professor)</h2>
+  <p>
+    Shazia.saqib@iac.edu.pk<br>
+    Ph.D (CS) - Deep Learning, GC University Lahore - 2019<br>
+    MS(CS) - GC University Lahore - 2009<br>
+    MSc - Quaid-e-Azam University - 1993
+  </p>
+</div>
+
+
+    
+        </div>
+    <hr>
+
+
+    <div class="rounded-box"> 
+    <h2>Sardar Usman (Associate Professor - HOD)</h2>
+    <p>sardar.usman@iac.edu.pk<br>
+      PhD Computer Science - King Abdul Aziz University, KSA – 2019<br>
+      MS Network System Engineering - University of Plymouth, UK - 2007<br>
+      BS Computer Science - COMSATS University Abbottabad, PK, 2005
+    </p>
+    </div>
+
+    <hr>
+    <div class="rounded-box"> 
+    <h2>Meherzadi Muntaha (Lab Engineer/Coordinator)</h2>
+    <p>meherzadi.muntaha@iac.edu.pk<br>
+      Bachelor of Information Technology (2016–2020) - University of Punjab (Affiliation), Lahore
+    </p>
+    </div>
+    <hr>
+    
+    <div class="rounded-box">
+    <h2>Ghulfam Hussain (Lab Engineer)</h2>
+    <p>Ghulfam.hussain@iac.edu.pk<br>
+      Bachelor of Computer Science, COMSATS University Islamabad - 2014–2018
+    </p>
+    </div>
+  </hr>
+    
+    
+    
+      </ul>
+    </div>
+  </section>
+
+  <section id="Events">
+    <h2 style="text-align: center; background-color: rgb(4, 4, 69); color: aliceblue; padding: 30px;margin-top: 2rem;">Events</h2>
+    
+    <div id="event" style="margin-left: 2rem; padding-left: 30px; text-align: center;">
+      <div style="background-color: rgb(195, 224, 108); display: block;
+    margin: 8px; border-radius: 15px; padding-left: 2px;width: 400px;height: 125px;margin-top: 50px;">
+      <li><strong>Bite Camp</strong></li>
+    <ul>
+      <br> Institute for Art & Culture (@iacofficials)
+      <br> Summer Camp 2025 announcement:
+      <br> Four‑week program starting June 23, 2025
+      <br> Shared on iacofficials Instagram page
+    </ul>
+  </li>
+  </div>
+     </div>
+  <div style="margin-left: 2rem; padding-left: 30px; text-align: center;">
+    <div style="background-color: rgb(195, 224, 108); display: block;
+    margin: 8px; border-radius: 15px; padding-left: 2px;width: 400px;margin-left: 700px;margin-top: -130px;margin-bottom: 50px;height: 160px;">
+  <li><strong>Women's Day – Women in Arts: Journey of Success</strong>
+    <br>
+    <ul>
+      The Institute for Art & Culture is proud to host this conference.</li>
+      The event aims to:</li>
+        <ul>
+          Celebrate the creativity and artistic expression of women</li>
+          Highlight how women's artwork voices powerful messages</li>
+          Honor their contributions to the world of art and beyond</li>
+        </ul>
+      
+      Join us to recognize and appreciate the role of women in shaping art, culture, and society.</li>
+    </ul>
+  </li>
+
+</ul>
+</div>
+</div>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2 style="padding: 10px; margin: 0;background-color: black;color: aliceblue;">Contact us</h2>
+    <div style="margin-left: 50px; padding: 20px;">
+    <p>
+      7.5 KM from Thokar Niaz Baig, Main Raiwand Road, Lahore, Punjab, Pakistan<br>
+      (042) 111 111 822<br>
+      info@iac.edu.pk
+    </p>
+  </div>
+  </section>
+  </div>
+
+</body>
+</html>
